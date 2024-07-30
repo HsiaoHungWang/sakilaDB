@@ -1,4 +1,7 @@
 from DB_DEMO import Category
 
-print(Category.all())
-print(Category.single(1))
+# 新增
+print(Category.category_create('abc'))
+# 讀取
+print(Category.category_all())
+print(Category.category_single(1))
