@@ -1,3 +1,4 @@
 from DB_DEMO import Category
 
-print(Category.categories())
+print(Category.all())
+print(Category.single(1))
